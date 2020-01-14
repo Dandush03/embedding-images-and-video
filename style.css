@@ -130,12 +130,32 @@
 }
 
 .uploader-info{
+    width: 100%;
     display: grid;
-    grid-template-areas: '1 2 2'
-    '1 2 2'
-    '1 2 2';
+    grid-template-areas: 'left1 bottom1 right1'
+                         'left1 bottom1 right1'
+                         'left1 bottom1 right1';
+    grid-template-columns: 5% 75% 20%;
+    margin: 2% 0;
+    border-top: solid;
+    border-bottom: solid;
 }
 
+.uploader-info a{
+    font-size: 8pt;
+}
+
+
 .uploader-img{
-    grid-area: 1;
+    grid-area: left1;
+}
+
+.gridright{
+    display:inline-block;
+    text-align:right;
+    grid-area: right1;
+}
+
+.uploader-content{
+    grid-area: bottom1;
 }
