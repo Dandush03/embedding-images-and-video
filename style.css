@@ -5,8 +5,7 @@
     'header header header'
     'left main rigth'
     'left main rigth';
-    grid-template-rows: 10% 90%;
-    grid-template-columns: 15% 60% 25%;
+    grid-template-rows: 5vw 95vw;
     min-width: 860px;
     font-family: Roboto, Arial, sans-serif;
 }
@@ -16,6 +15,7 @@
     text-align: center;
     grid-template-columns: 15% 60% 25%;
 }
+
 .search-container div{
     display: inline-flex;
     width: 80%;
@@ -73,10 +73,9 @@
 }
 .video{
     position: relative;
-    height: 32.8vh;
-    width: 58.2vh;
+    height: 60vh;
+    width: 100%;
     margin-top: 2%;
-    margin-bottom: 2%;
 }
 .video embed{
     width: 100%;
@@ -84,6 +83,8 @@
 }
 .info-video{
     display: block;
+    font-family: Roboto, Arial, sans-serif;
+
 }
 .info-video div{
     display: inline;
@@ -105,4 +106,19 @@
 }
 .info-video button div{
     display: inline-flex;
+}
+
+.info-video h2{
+    margin: 0px;
+}
+
+.info-video h6{
+    margin: 8px 0px;
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+}
+
+.side-bar{
+    width: 25vw;
+    grid-area: rigth;
 }
