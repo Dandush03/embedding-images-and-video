@@ -5,10 +5,12 @@
     'header header header'
     'left main rigth'
     'left main rigth';
-    grid-template-rows: 5vw 95vw;
+    grid-template-rows: 50px 95vw;
     min-width: 860px;
     font-family: Roboto, Arial, sans-serif;
     grid-template-columns: 0% 70% 30%;
+    background-color: whitesmoke;
+    margin: 0%;
 
 }
 .nav-bar{
@@ -16,6 +18,8 @@
     display: grid;
     text-align: center;
     grid-template-columns: 15% 60% 25%;
+    height: 50px;
+    background-color: white;
 }
 
 .search-container div{
@@ -71,13 +75,13 @@
     width: 80px;
 }
 .main-video{
+    margin: 10px;
     grid-area: main;
 }
 .video{
     position: relative;
     height: 60vh;
     width: 100%;
-    margin-top: 2%;
 }
 .video embed{
     width: 100%;
@@ -163,13 +167,14 @@
     min-width: 25vw;
     width: 100%;
     grid-area: rigth;
+    
+}
+
+.side-bar-data{
+    height: 8vw;
     display: grid;
-    grid-template-areas: '1left 1center'
-                         '1left 1center'
-                         '1left 1center';
+    grid-template-areas: '1left 1center';
     grid-template-columns: 40% 60%;   
-    grid-template-rows: 8%;
-    border-left: solid 1px;
     margin: 2%;
 }
 
