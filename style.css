@@ -1,0 +1,141 @@
+.page-setup{
+    min-height: 100%;
+    display: grid;
+    grid-template-areas:
+    'header header header'
+    'left main rigth'
+    'left main rigth';
+    grid-template-rows: 5vw 95vw;
+    min-width: 860px;
+    font-family: Roboto, Arial, sans-serif;
+}
+.nav-bar{
+    grid-area: header;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 15% 60% 25%;
+}
+
+.search-container div{
+    display: inline-flex;
+    width: 80%;
+    min-height: 30px;
+}
+.logo{
+    display: inline-flex;
+    height: auto;
+    min-width: 135px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.logo div {
+    display: inline-flex;
+}
+.search-container{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+}
+.search-bar{
+    width: 90%;
+    min-width: 350px;
+    padding-left: 10px;
+    margin: 0%;
+}
+.search-button{
+    width: 10%;
+    min-width: 50px;
+    padding: 0%;
+    margin: 0%;
+}
+.menu-top{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-top button{
+    width: 10%;
+    min-width: 25px;
+    padding: 0%;
+    border-style: none;
+    background-color: transparent;
+}
+.menu-top img {
+    width: 25px;
+}
+.logo img{
+    width: 80px;
+}
+.main-video{
+    grid-area: main;
+}
+.video{
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    margin-top: 2%;
+}
+.video embed{
+    width: 100%;
+    height: 100%;
+}
+.info-video{
+    display: block;
+    font-family: Roboto, Arial, sans-serif;
+
+}
+
+.info-video a{
+    font-size: 8px;
+}
+.info-video button{
+    border-style: none;
+    background-color: transparent;
+}
+.info-video button p{
+    padding:2px;
+}
+.info-video button img{
+    padding:2px;
+}
+.info-video button div{
+    display: inline-flex;
+}
+
+.info-video h2{
+    margin: 0px;
+}
+
+.info-video h6{
+    margin: 8px 0px;
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+}
+
+.side-bar{
+    width: 25vw;
+    grid-area: rigth;
+}
+
+.right{
+    float: right;
+    margin: -2% 0px;
+}
+
+.left{
+    float: left;
+    margin: -2% 0px;
+}
+
+.uploader-info{
+    display: grid;
+    grid-template-areas: '1 2 2'
+    '1 2 2'
+    '1 2 2';
+}
+
+.uploader-img{
+    grid-area: 1;
+}
