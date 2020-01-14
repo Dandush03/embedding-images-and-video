@@ -122,3 +122,8 @@
     width: 25vw;
     grid-area: rigth;
 }
+
+.right{
+    float: right;
+    margin: -2% 0px;
+}
