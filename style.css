@@ -86,11 +86,7 @@
     font-family: Roboto, Arial, sans-serif;
 
 }
-.info-video div{
-    display: inline;
-    align-content: center;
-    justify-content: center;
-}
+
 .info-video a{
     font-size: 8px;
 }
@@ -126,4 +122,20 @@
 .right{
     float: right;
     margin: -2% 0px;
+}
+
+.left{
+    float: left;
+    margin: -2% 0px;
+}
+
+.uploader-info{
+    display: grid;
+    grid-template-areas: '1 2 2'
+    '1 2 2'
+    '1 2 2';
+}
+
+.uploader-img{
+    grid-area: 1;
 }
