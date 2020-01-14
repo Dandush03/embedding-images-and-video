@@ -66,3 +66,6 @@
 .main{
     grid-area: main;
 }
+.video{
+    width:60%;
+}
