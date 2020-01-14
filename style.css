@@ -3,8 +3,8 @@
     display: grid;
     grid-template-areas:
     'header header header'
-    'main main rigth'
-    'main main rigth';
+    'left main rigth'
+    'left main rigth';
     grid-template-rows: 10% 90%;
     min-width: 750PX;
     font-family: Roboto, Arial, sans-serif;
@@ -78,10 +78,20 @@
 .video{
     position: relative;
     height: 35vh;
-    width: 50%;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .video embed{
     width: 100%;
     height: 100%;
+}
+
+.info-video{
+    display: block;
+}
+
+.info-video div{
+    display: inline;
 }
