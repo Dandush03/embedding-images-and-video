@@ -5,6 +5,7 @@
     'main main rigth'
     'main main rigth';
     grid-template-rows: 20% 80%;
+    min-width: 750PX;
 }
 .nav-bar{
     grid-area: header;
@@ -52,4 +53,16 @@
     padding: 0%;
     border-style: none;
     background-color: transparent;
+}
+
+.menu-top img {
+    width: 25px;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.main{
+    grid-area: main;
 }
