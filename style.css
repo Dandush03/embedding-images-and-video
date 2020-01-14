@@ -6,6 +6,7 @@
     'main main rigth';
     grid-template-rows: 20% 80%;
     min-width: 750PX;
+    font-family: Roboto, Arial, sans-serif;
 }
 .nav-bar{
     grid-area: header;
