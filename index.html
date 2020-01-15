@@ -9,13 +9,14 @@
         <section class="nav-bar">
             <div class="logo">
                 <div>
+                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 18px; height: 18px; fill: gray; margin-right:25px"><g><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></g></svg>
                     <a><img src="imgs/logo.png" width="100%"></a>
                 </div>
             </div>
             <div class="search-container">
                 <div>
                     <input class="search-bar" placeholder="Search...">
-                    <input type="button" id="search" class="search-button">
+                    <button id="search" class="search-button">
                 </div>
             </div>
             <div class="menu-top">
@@ -40,145 +41,224 @@
                 <embed src="https://www.youtube.com/embed/IvUU8joBb1Q">
             </div>
             <div class="info-video">
-                <div> <!--Tags-->
-                    <a href="">#wintergatan</a>
-                    <a href="">#marble</a>
-                    <a href="">#machine</a>
-                </div>
-                <div> <!--Title-->
-                    <h2>Wintergatan - Marble Machine (music instrument using 2000 marbles)</h2>
-                </div>
-                <div> <!--Number of Views, upload date-->
-                    <h6>126,721,074 views • Mar 1, 2016</h6>
-                </div>
-                <div class="right">
-                    <button>
-                        <div>
-                            <img src="imgs/thumb-up.svg"> <!--Like-->
-                            <p>2.4M</p>
+                <div class="info-video-data">
+                    <div> <!--Tags-->
+                        <a href="https://www.youtube.com/results?search_query=%23wintergatan">#wintergatan</a>
+                        <a href="https://www.youtube.com/results?search_query=%23marble">#marble</a>
+                        <a href="https://www.youtube.com/results?search_query=%23machine">#machine</a>
+                    </div>
+                    <div> <!--Title-->
+                        <h2>Wintergatan - Marble Machine (music instrument using 2000 marbles)</h2>
+                    </div>
+                    <div class="wrapped-info-video">
+                        <div> <!--Number of Views, upload date-->
+                            <h6>126,721,074 views • Mar 1, 2016</h6>
                         </div>
-                    </button>
-                    <button>
                         <div>
-                            <img src="imgs/thumb-down.svg"> <!--Dislike-->
-                            <p>41K</p>
+                            <div class="right">
+                                <button>
+                                    <div>
+                                        <img src="imgs/thumb-up.svg"> <!--Like-->
+                                        <p>2.4M</p>
+                                    </div>
+                                </button>
+                                <button>
+                                    <div>
+                                        <img src="imgs/thumb-down.svg"> <!--Dislike-->
+                                        <p>41K</p>
+                                    </div>
+                                </button>
+                                <button>
+                                    <div>
+                                        <img src="">
+                                        <p>SHARE</p>
+                                    </div>
+                                </button>
+                                <button>
+                                    <div>
+                                        <img src="imgs/playlist-plus.svg">
+                                        <p>SAVE</p>
+                                    </div>
+                                </button>
+                            </div>
                         </div>
-                    </button>
-                    <button>
-                        <div>
-                            <img src="">
-                            <p>SHARE</p>
-                        </div>
-                    </button>
-                    <button>
-                        <div>
-                            <img src="imgs/playlist-plus.svg">
-                            <p>SAVE</p>
-                        </div>
-                    </button>
+                    </div>
                 </div>
+                <div class="line"></div>
                 <div class="uploader-info">
                     <div class="uploader-img">
-                        <img src="https://yt3.ggpht.com/a/AGF-l78mj7JeAO5BP2BChvanMZI_CwgPYq-g7fXBUg=s48-c-k-c0xffffffff-no-rj-mo"> <!--youtube channel profile picture-->
+                        <img class="round" src="https://yt3.ggpht.com/a/AGF-l78mj7JeAO5BP2BChvanMZI_CwgPYq-g7fXBUg=s48-c-k-c0xffffffff-no-rj-mo"> <!--youtube channel profile picture-->
                     </div>
                     <div class="uploader-content">
-                        <p>Wintergatan</p>
-                        <p>1.6M subscribers</p>
-                        <p>Get the audio track "Marble Machine" by Wintergatan:
-                            https://wintergatan.bandcamp.com/trac...</p> <!--Video description-->
-                        <a href="">SHOW MORE</a> <!--only display, no functionality-->
+                        <div class="uploader-user">
+                            <div>
+                                <h6>Wintergatan</h6>
+                                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 11px; height: 11px; fill: gray; padding: 2px;"><g>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10 S17.52,2,12,2z M9.92,17.93l-4.95-4.95l2.05-2.05l2.9,2.9l7.35-7.35l2.05,2.05L9.92,17.93z"></path>
+                                  </g></svg>
+                            </div>
+                            <p>1.6M subscribers</p>
+                        </div>
+                        <div class="uploader-description">
+                            <p>Get the audio track "Marble Machine" by Wintergatan:</p> 
+                            <a href="https://www.youtube.com/redirect?v=IvUU8joBb1Q&redir_token=ICC0_cAGM1eumrcf_og20eP4vAR8MTU3OTE4Mjg5MkAxNTc5MDk2NDky&event=video_description&q=https%3A%2F%2Fwintergatan.bandcamp.com%2Ftrack%2Fmarble-machine">https://wintergatan.bandcamp.com/trac...</a>
+                        </div>
+                        <div class="uploader-button">
+                            <input type="button" value="SHOW MORE">
+                        </div>
                     </div>
                     <div class="gridright">
-                        <button>
-                            JOIN
-                        </button>
-                        <button>
-                            SUBSCRIBED
-                        </button>
-                        <button>
-                            <img src="imgs/notification.svg">
-                        </button>
+                        <input type="button" value="SUBSCRIBE">
                     </div>
                 </div>
+                <div class="line"></div>
                 <div class="comment-interaction"> 
-                    <p>102,687 Comments</p>
-                    <button class="">
-                        <img src="">
-                        SORT BY
-                    </button>
-                    <!--Comment insert block-->
-                    <img src=""> <!--user profile picture-->
-                    <input placeholder="Add a public comment">
+                    <div>
+                        <p>102,687 Comments</p>
+                        <button>
+                            <img src="imgs/sort-button.svg">
+                            <p>SORT BY</p>
+                        </button>
+                    </div>
+                    <div>
+                        <img src="imgs/account-circle.svg"> <!--user profile picture-->
+                        <input placeholder="Add a public comment">
+                    </div>
                 </div>
-                <div> <!--Comment 1-->
-                    <img src=""> <!--user profile picture-->
-                    <div>
-                        <p>Duckesa zombie</p>
-                        <p>2 years ago</p>
+                <div class="comments" data-key="1">
+                    <div class="comment-module"> <!--Comment 1-->
+                        <div>
+                            <img class="round" src="https://yt3.ggpht.com/a/AGF-l7_PRAKzdt6MbVjoYgShyc80YvZzSaYXbHtzzA=s48-c-k-c0xffffffff-no-rj-mo"> <!--user profile picture-->
+                        </div>
+                        <div class="comment-info">
+                            <div class="comment-user">
+                                <p>Duckesa zombie</p>
+                                <a href="https://www.youtube.com/watch?v=IvUU8joBb1Q"><p>2 years ago</p></a>
+                            </div>
+                            <div class="comment-content">
+                                <p>So this is what happens when you read the IKEA instructions...</p>
+                            </div>
+                            <div class="comment-icons">
+                                <button>
+                                    <div>
+                                        <img src="imgs/thumb-up.svg">
+                                        <p>46K</p>
+                                    </div>                        
+                                </button>   
+                                <button>
+                                    <div>
+                                        <img src="imgs/thumb-down.svg"><p>&#8291;</p>
+                                    </div>                        
+                                </button>
+                                <button class="comment-icons"><p>REPLY</p></button>
+                            </div> 
+                            <div class="coment-view">
+                                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 15px; height: 15px; fill: rgb(6, 95, 212);"><g>
+                                    <path d="M7 10l5 5 5-5z" class="style-scope yt-icon"></path></g></svg>
+                                  <p class="no-margin view-replies">View 250 replies</p>                                 
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <p>So this is what happens when you read the IKEA instructions...</p>
-                    </div>
-                    <img src="imgs/thumb-up.svg"><p>46K</p>
-                    <img src="imgs/thumb-down.svg"><p></p>
-                    <p>REPLY</p>
-                    <p>↓ view 250 replies</p>
                 </div>
-                <div> <!--Comment 2-->
-                    <img src=""> <!--user profile picture-->
-                    <div>
-                        <p>Kugonah Katsunige</p>
-                        <p>3 days ago</p>
+                <div class="comments" data-key="2">
+                    <div class="comment-module">
+                        <div>
+                            <img class="round" src="https://yt3.ggpht.com/a/AGF-l78t0mayl_9YzCZV6y99uqKAhoKjrNiNX7OL_Q=s48-c-k-c0xffffffff-no-rj-mo">
+                        </div>
+                        <div class="comment-info">
+                            <div class="comment-user">
+                                <p>Kugonah Katsunige</p>
+                                <a href="https://www.youtube.com/watch?v=IvUU8joBb1Q"><p>4 days ago</p></a>
+                            </div>
+                            <div class="comment-content">
+                                <p>This is still the coolest shit I've seen, even 4 years later</p>
+                            </div>
+                            <div class="comment-icons">
+                                <button>
+                                    <div>
+                                        <img src="imgs/thumb-up.svg">
+                                        <p>573</p>
+                                    </div>                        
+                                </button>   
+                                <button>
+                                    <div>
+                                        <img src="imgs/thumb-down.svg"><p>&#8291;</p>
+                                    </div>                        
+                                </button>
+                                <button class="comment-icons"><p>REPLY</p></button>
+                            </div> 
+                            <div class="coment-view">
+                                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 15px; height: 15px; fill: rgb(6, 95, 212);"><g>
+                                    <path d="M7 10l5 5 5-5z" class="style-scope yt-icon"></path></g></svg>
+                                  <p class="no-margin view-replies">View 11 replies</p>                                 
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <p>This is still the coolest shit I've seen, even 4 years later</p>
-                    </div>
-                    <img src="imgs/thumb-up.svg"><p>372</p>
-                    <img src="imgs/thumb-down.svg"><p></p>
-                    <p>REPLY</p>
-                    <p>↓ view 9 replies</p>
                 </div>
-                <div> <!--Comment 3-->
-                    <img src=""> <!--user profile picture-->
-                    <div>
-                        <p>Hwin the horse that saved the universe</p>
-                        <p>2 days ago</p>
+                <div class="comments" data-key="3">
+                    <div class="comment-module">
+                        <div>
+                            <img class="round" src="https://yt3.ggpht.com/a/AGF-l7_nAHdv8OFcBE-BHwruXKEwa3ReHOUbNw75-A=s48-c-k-c0xffffffff-no-rj-mo">
+                        </div>
+                        <div class="comment-info">
+                            <div class="comment-user">
+                                <p>dank pepe</p>
+                                <a href="https://www.youtube.com/channel/UCDY9BdG6CmFXtfaRHtEu07g"><p>1 days ago</p></a>
+                            </div>
+                            <div class="comment-content">
+                                <p>When you want to be a musician but your parents want you to become an engineer.</p>
+                            </div>
+                            <div class="comment-icons">
+                                <button>
+                                    <div>
+                                        <img src="imgs/thumb-up.svg">
+                                        <p>67</p>
+                                    </div>                        
+                                </button>   
+                                <button>
+                                    <div>
+                                        <img src="imgs/thumb-down.svg"><p>&#8291;</p>
+                                    </div>                        
+                                </button>
+                                <button class="comment-icons"><p>REPLY</p></button>
+                            </div> 
+                        </div>
                     </div>
-                    <div>
-                        <p>No one:
-                            That one kid at the science fair:</p>
-                    </div>
-                    <img src="imgs/thumb-up.svg"><p>372</p>
-                    <img src="imgs/thumb-down.svg"><p></p>
-                    <p>REPLY</p>
                 </div>
-                <div> <!--Comment 4-->
-                    <img src=""> <!--user profile picture-->
-                    <div>
-                        <p>Milan Jackson</p>
-                        <p>1 week ago</p>
+                <div class="comments" data-key="4">
+                    <div class="comment-module">
+                        <div>
+                            <img class="round" src="https://yt3.ggpht.com/a/AGF-l79XcVS7egYum4l-NxErmAuOVfFI3_f4Btx7cw=s48-c-k-c0xffffffff-no-rj-mo">
+                        </div>
+                        <div class="comment-info">
+                            <div class="comment-user">
+                                <p>Dominick Lycans</p>
+                                <a href="https://www.youtube.com/channel/UCvvW_vWHti99BqweuFlWG1w"><p>1 weeks ago</p></a>
+                            </div>
+                            <div class="comment-content">
+                                <p>this takes one man band to a whole different level</p>
+                            </div>
+                            <div class="comment-icons">
+                                <button>
+                                    <div>
+                                        <img src="imgs/thumb-up.svg">
+                                        <p>612</p>
+                                    </div>                        
+                                </button>   
+                                <button>
+                                    <div>
+                                        <img src="imgs/thumb-down.svg"><p>&#8291;</p>
+                                    </div>                        
+                                </button>
+                                <button class="comment-icons"><p>REPLY</p></button>
+                            </div> 
+                            <div class="coment-view">
+                                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 15px; height: 15px; fill: rgb(6, 95, 212);"><g>
+                                    <path d="M7 10l5 5 5-5z" class="style-scope yt-icon"></path></g></svg>
+                                  <p class="no-margin view-replies">View 9 replies</p>                                 
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <p>This kid is built like a Tim Burton stop motion character</p>
-                    </div>
-                    <img src="imgs/thumb-up.svg"><p>22</p>
-                    <img src="imgs/thumb-down.svg"><p></p>
-                    <p>REPLY</p>
-                    <p>↓ view 11 replies</p>
-                </div>
-                <div> <!--Comment 5-->
-                    <img src=""> <!--user profile picture-->
-                    <div>
-                        <p>Dominick Lycans</p>
-                        <p>5 days ago</p>
-                    </div>
-                    <div>
-                        <p>this takes one man band to a whole different level</p>
-                    </div>
-                    <img src="imgs/thumb-up.svg"><p>494</p>
-                    <img src="imgs/thumb-down.svg"><p></p>
-                    <p>REPLY</p>
-                    <p>↓ view 9 replies</p>
                 </div>
             </div>
         </section>
@@ -188,19 +268,23 @@
                     <h3>Up Next</h3>
                 </div>
                 <div>
-                    <button></button>
+                    <p>AUTOPLAY</p>
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span>
+                    </label>
                 </div>
             </div>
             <div class="side-bar-data">
                 <a href="https://www.youtube.com/watch?v=J6qIzKxmW8Y">
                     <div class="side-bar-img">
-                        <img src="imgs/logo.png">
+                        <img src="imgs/side-img-0.png">
                     </div>
                     <div class="side-bar-content">
                         <div>
                             <h1>Howl's Moving Castle - Marry go round of Life cover by Grissini...</h1>
                             <h2>Grissini Project</h2>
-                            <p>Recommended for you</p>
+                            <p>2.5M Views</p>
                         </div>
                     </div>
                 </a>
@@ -228,7 +312,7 @@
                         <div>
                             <h1>Chopin Nocturnes 10 Hours</h1>
                             <h2>CLASSICAL MUSIC</h2>
-                            <p>Recommended for you</p>
+                            <p>1.3M Views</p>
                         </div>
                     </div>
                 </a>
@@ -270,7 +354,7 @@
                         <div>
                             <h1>Spirited Away Piano  - ピアノ曲 かっこいい ~ 作業用や勉強用にも~ リラックス 音楽 睡眠</h1>
                             <h2>Beautiful Relaxing Music</h2>
-                            <p>Recommended for you</p>
+                            <p>8.1M Views</p>
                         </div>
                     </div>
                 </a>
