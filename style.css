@@ -238,3 +238,46 @@
     font-size: 16px;
 }
 
+.comment-interaction{
+    display:block;
+}
+
+.comment-interaction button{
+    border-style: none;
+    background-color: transparent;
+}
+.comment-interaction button div{
+    display: inline-flex;
+}
+.comment-interaction button p{
+    display:block;
+}
+.comment-interaction div{
+    display: inline-flex;
+}
+
+.comment-module{
+    widows: 100%;
+    display:grid;
+    grid-template-areas: 'left-comment right-comment right-comment'
+                         'left-comment right-comment right-comment'
+                         'left-comment right-comment right-comment';
+    grid-template-columns: 8% 46% 46%;    
+}
+
+.comment-module img{
+    grid-area: left-comment;
+}
+
+.comment-info{
+    display: block;
+}
+
+.comment-user{
+    display:inline;
+    grid-area: right-comment;
+}
+.comment-content{
+    display:block;
+    grid-area: right-comment;
+}
