@@ -49,12 +49,19 @@
     min-width: 350px;
     padding-left: 10px;
     margin: 0%;
+    border: 1px solid rgb(200, 200, 200);
 }
 .search-button{
     width: 10%;
     min-width: 50px;
     padding: 0%;
     margin: 0%;
+    background-image: url("imgs/search.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: 1px solid rgb(200, 200, 200);
+    border-left: transparent;
 }
 .menu-top{
     display: inline-flex;
@@ -64,7 +71,8 @@
 .menu-top button{
     width: 10%;
     min-width: 25px;
-    padding: 0%;
+    padding:0;
+    margin-left: 25px;
     border-style: none;
     background-color: transparent;
 }
@@ -203,6 +211,11 @@
 
 .uploader-content{
     grid-area: bottom1;
+}
+
+.uploader-user div{
+    display: inline-flex;
+    align-items: center;
 }
 
 .uploader-user h6{
@@ -405,7 +418,9 @@
 .comment-interaction button{
     border-style: none;
     background-color: transparent;
-    display: inline-flex
+    display: inline-flex;
+    align-items: center;
+    margin-left: 25px;
 }
 
 .comment-interaction button div{
@@ -415,6 +430,11 @@
 .comment-interaction img{
     width: 48px;
     margin-right: 10px;
+}
+
+.comment-interaction button img{
+    width:18px;
+    margin:0;
 }
 
 .comment-interaction input{
