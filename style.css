@@ -142,7 +142,7 @@
     grid-template-areas: 'left1 bottom1 right1'
                          'left1 bottom1 right1'
                          'left1 bottom1 right1';
-    grid-template-columns: 5% 75% 20%;
+    grid-template-columns: fit-content(60px) 75% 20%;
 }
 
 .uploader-info a{
@@ -298,6 +298,10 @@
     align-items: center;
 }
 
+.side-bar-top-buttons p {
+    color: rgb(80, 80, 80);
+}
+
 .side-bar h3{
     font-weight: 300;
     font-size: 16px;
@@ -440,4 +444,8 @@
 }
 .no-margin{
     margin:0;
+}
+
+.round{
+    border-radius: 50%;
 }
