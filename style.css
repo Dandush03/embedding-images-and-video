@@ -402,9 +402,14 @@
     
   }
   
-  .slider.round:before {
-    border-radius: 50%;
-  }
+.slider.round:before {
+   border-radius: 50%;
+}
+
+.comments{
+    margin-bottom: 25px;
+}
+
 .comment-interaction{
     display:grid;
     margin-bottom: 15px;
