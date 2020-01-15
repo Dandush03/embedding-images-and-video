@@ -8,7 +8,7 @@
     grid-template-rows: 50px 95vw;
     min-width: 860px;
     font-family: Roboto, Arial, sans-serif;
-    grid-template-columns: 0% 75% 25%;
+    grid-template-columns: 2% 72% 25%;
     background-color: whitesmoke;
     margin: 0%;
 
@@ -198,27 +198,27 @@
 
 .side-bar p{
     font-size: 12px;
-    margin: 0px 10px 5px 10px;
+    margin: 0px 10px 0px 10px;
     color: grey;
     height: 16px
 }
 
 .side-bar h1{
     font-size: 14px;
-    margin: 0px 10px 5px 10px;
+    margin: 0px 10px 0px 10px;
     color: black;
-    word-break: break-all;
+    word-break: break-word;
     display: block;
-    height: 30px;
-    max-height: 5.5vw;
+    max-height: 35px;
     overflow: hidden;
 }
 
 .side-bar h2{
     font-size: 14px;
-    margin: 0px 10px 5px 10px;
+    margin: 0px 10px 0px 10px;
     color: grey;
-    height: 20%
+    height: 20%;
+    font-weight: 300;
 }
 
 .line{
