@@ -166,12 +166,13 @@
 .side-bar{
     width: 100%;
     grid-area: rigth;
-    margin: 2$;
-    
+    margin: 2%;
 }
 
 .side-bar-data{
-    height: 6vw;
+    height: 5.5vw;
+    min-width: 250px;
+    
 }
 
 .side-bar-data a{
@@ -184,10 +185,7 @@
 }
 
 .side-bar-img{
-    height: 5vw;
-    display: inline-flex;
-    align-items: center;
-    align-content: center;
+    display: inline-block;
 }
 
 .side-bar-img img{
@@ -195,26 +193,32 @@
 }
 
 .side-bar-content{
-    margin: 0% 1% 1% 1%;
-    height: 7vw;
+    height: 100%;
 }
 
 .side-bar p{
     font-size: 12px;
     margin: 0px 10px 5px 10px;
     color: grey;
+    height: 16px
 }
 
 .side-bar h1{
     font-size: 14px;
     margin: 0px 10px 5px 10px;
     color: black;
+    word-break: break-all;
+    display: block;
+    height: 30px;
+    max-height: 5.5vw;
+    overflow: hidden;
 }
 
 .side-bar h2{
     font-size: 14px;
     margin: 0px 10px 5px 10px;
     color: grey;
+    height: 20%
 }
 
 .line{
