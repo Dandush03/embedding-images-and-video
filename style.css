@@ -338,13 +338,34 @@
 
 .comment-info{
     display: block;
+    height: 50%
 }
 
+
 .comment-user{
-    display:inline;
+    display:inline-flex;
     grid-area: right-comment;
+    align-items: center;
+    height: 25px;
+}
+.comment-user a{
+    font-weight: 100;
+    text-decoration:none;
+    margin-left: 4px;
+    font-size: 8pt;
+    color: rgb(120, 120, 120);
 }
 .comment-content{
     display:block;
     grid-area: right-comment;
+    height:60px;
+    word-break:break-word;
+    overflow: hidden;
+}
+.comment-icons{
+    height: 50px;
+    display: inline-flex;
+}
+.no-margin{
+    margin:0;
 }
