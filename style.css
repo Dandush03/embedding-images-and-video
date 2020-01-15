@@ -93,6 +93,10 @@
 
 }
 
+.info-video-data{
+    margin-bottom: 2%;
+}
+
 .info-video a{
     font-size: 8px;
 }
@@ -139,9 +143,6 @@
                          'left1 bottom1 right1'
                          'left1 bottom1 right1';
     grid-template-columns: 5% 75% 20%;
-    margin: 2% 0;
-    border-top: solid 1px;
-    border-bottom: solid 1px;
 }
 
 .uploader-info a{
@@ -225,7 +226,7 @@
     border-style: solid;
     border-color: lightgray;
     border-width: 1px 0px 0px 0px;
-    margin: 3% 2% 5% 2%;
+    margin: 10px 5px 10px 5px;
 }
 
 .side-bar-top-buttons{
